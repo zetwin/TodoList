@@ -1,0 +1,43 @@
+/* purgecss start ignore */
+@tailwind base;
+
+input, textarea, button:focus {
+  @apply outline-none;
+}
+
+input, textarea {
+  @apply bg-transparent;
+}
+
+textarea {
+  @apply resize-none;
+}
+
+input {
+  @apply min-w-0;
+}
+
+html, body {
+  @apply h-full;
+}
+
+input[type='button'] {
+  @apply cursor-pointer;
+}
+
+textarea, input[type='text'], input[type='password'], label {
+  @apply block;
+}
+
+/* purgecss end ignore */
+
+@tailwind components;
+
+.VTextLink {
+  @apply text-theme;
+}
+.VTextLink:hover {
+  @apply underline;
+}
+
+@tailwind utilities;
