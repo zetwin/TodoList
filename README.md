@@ -2,9 +2,9 @@
 https://todo-project-fbfb7.web.app
 
 ## Screenshots
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
+![](images/dashboard.png)
+![](images/login.png)
+![](images/registration.png)
 
 ## Core stack
 - Vue JS
